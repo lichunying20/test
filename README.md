@@ -5,6 +5,9 @@
 
 目的：验证集和测试集的目的都是评估模型的性能和泛化能力，以便在实际应用中选择最佳模型。
 
+Commonalities: The validation set and the test set are both separated from the original dataset and used to evaluate the model's generalization ability and performance.
+
+Purpose: The purpose of both the validation set and the test set is to evaluate the performance and generalization ability of the model, in order to select the best model for practical applications.
 
 ## test代码
 
