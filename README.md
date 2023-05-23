@@ -84,3 +84,5 @@ if __name__=='__main__':
     print(out.shape)
 ```
 ## 最后得到的结果
+![image](https://github.com/lichunying20/test/assets/128216499/a4422295-6ef4-4520-b3b2-5dce7cd5477c)
+
