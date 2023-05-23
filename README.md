@@ -9,7 +9,7 @@ Commonalities: The validation set and the test set are both separated from the o
 
 Purpose: The purpose of both the validation set and the test set is to evaluate the performance and generalization ability of the model, in order to select the best model for practical applications.
 
-## test代码
+## test代码(模仿train.py)
 
 ## test所用的模型代码（ResNet34模型）
 ```python
