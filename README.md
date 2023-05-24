@@ -110,32 +110,16 @@ class Worker:
 
         # 打印验证结果
         validating_loss /= len(self.val_loader)
-        print('val >> Average loss: {:.4f}, Accuracy: {}/{} ({:.03f}%)\n'.format(
-            validating_loss,
-            num_correct,
-            len(self.val_loader.dataset),
-            100. * num_correct / len(self.val_loader.dataset))
-        )
+        ...
 
         # 返回重要信息，用于生成模型保存命名
         return 100. * num_correct / len(self.val_loader.dataset), validating_loss
 
-
 if __name__ == '__main__':
     # 初始化
-    torch.backends.cudnn.benchmark = True
-    torch.cuda.manual_seed(0)
-    args = get_args()
-    worker = Worker(args=args)
-
+    ...
     # 训练与验证
-    for epoch in range(1, args.epochs + 1):
-        worker.train(epoch)
-        val_acc, val_loss = worker.val()
-        if epoch > args.save_station:
-            save_dir = args.directory + '%s-epochs-%d-model-val-acc-%.3f-loss-%.6f.pt' \
-                       % (args.model, epoch, val_acc, val_loss)
-            torch.save(worker.model, save_dir)
+    for epoch in range(1, args.epochs + 1):...
 ```
 ## 运行train.py后得到的结果
 
