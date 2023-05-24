@@ -122,6 +122,7 @@ if __name__ == '__main__':
     for epoch in range(1, args.epochs + 1):...
 ```
 ## 运行train.py后得到的结果
+![image](https://github.com/lichunying20/test/assets/128216499/88f2b551-df4c-4050-ad70-54ec89e25420)
 
 ## test代码(模仿train.py)
 ```python
