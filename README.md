@@ -129,6 +129,9 @@ if __name__ == '__main__':
 
 ```
 
+## 运行test.py得到的结果（ResNet18模型）
+![image](https://github.com/lichunying20/test/assets/128216499/edbe95cb-8c7e-479b-8b3c-135ca71a207b)
+
 ## test所用的模型代码（ResNet34模型）
 ```python
 import torch
