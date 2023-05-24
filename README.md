@@ -390,5 +390,6 @@ if __name__ == '__main__':
                        % (args.model, epoch, test_acc, test_loss)
             torch.save(worker.model, save_dir)
 ```
-
+## 运行test.py后得到的结果（ResNet34（1）模型）
+![image](https://github.com/lichunying20/test/assets/128216499/8b5bc5ed-7354-405b-b33c-7cb8d7b0e80e)
 
