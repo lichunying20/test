@@ -124,8 +124,58 @@ if __name__ == '__main__':
 ## 运行train.py后得到的结果
 ![image](https://github.com/lichunying20/test/assets/128216499/88f2b551-df4c-4050-ad70-54ec89e25420)
 
-## 将train.py
-
+## 将train.py(ResNet18模型改为ResNet34（1）模型)
+```python
+# model
+    parser.add_argument('--model', type=str, default='ResNet18',
+                        choices=[
+                            'ResNet18',
+                            'ResNet34',
+                            'ResNet50',
+                            'ResNet18RandomEncoder',
+                        ])
+                        
+  # 挑选神经网络、参数初始化
+        net = None
+        if args.model == 'ResNet18':
+            net = ResNet18(num_cls=args.num_classes)
+        elif args.model == 'ResNet34':
+            net = ResNet34(num_cls=args.num_classes)
+        elif args.model == 'ResNet50':
+            net = ResNet50(num_cls=args.num_classes)
+        elif args.model == 'ResNet18RandomEncoder':
+            net = ResNet18RandomEncoder(num_cls=args.num_classes)
+        assert net is not None
+ ```
+ 改为
+ ```python
+ # model
+    parser.add_argument('--model', type=str, default='ResNet34(1)',
+                        choices=[
+                            'ResNet18',
+                            'ResNet34',
+                            'ResNet50',
+                            'ResNet18RandomEncoder',
+                            'ResNet34(1)',
+                        ])
+                        
+  # 挑选神经网络、参数初始化
+        net = None
+        if args.model == 'ResNet18':
+            net = ResNet18(num_cls=args.num_classes)
+        elif args.model == 'ResNet34':
+            net = ResNet34(num_cls=args.num_classes)
+        elif args.model == 'ResNet50':
+            net = ResNet50(num_cls=args.num_classes)
+        elif args.model == 'ResNet18RandomEncoder':
+            net = ResNet18RandomEncoder(num_cls=args.num_classes)
+        elif args.model == 'ResNet34(1)':
+            net = ResNet34(num_cls=args.num_classes)
+        assert net is not None
+ ```
+ 
+ 
+ 
 ## 运行train.py后得到的结果（ResNet34（1）模型）
 ![image](https://github.com/lichunying20/test/assets/128216499/7ee8bdb9-0bae-4edb-96eb-fdb3a686111d)
 
