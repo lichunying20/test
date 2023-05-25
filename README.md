@@ -124,7 +124,7 @@ if __name__ == '__main__':
 ## 运行train.py后得到的结果
 ![image](https://github.com/lichunying20/test/assets/128216499/88f2b551-df4c-4050-ad70-54ec89e25420)
 
-## 将train.py(ResNet18模型改为ResNet34（1）模型)
+## 将train.py(ResNet18模型改为ResNet34模型)
 ```python
 from tqdm import tqdm
 from models import *
@@ -198,11 +198,11 @@ from models.resnet_main import *
         assert net is not None
  ``` 
  
-## 运行train.py后得到的结果（ResNet34（1）模型）
+## 运行train.py后得到的结果（ResNet34模型）
 ![image](https://github.com/lichunying20/test/assets/128216499/ba8938fb-ffe7-44de-900c-1926a7ef50e5)
 
 
-## test代码(模仿train.py)（ResNet34（1）模型）
+## test代码(模仿train.py)（ResNet34模型）
 ```python
 import argparse
 import time
