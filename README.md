@@ -400,7 +400,15 @@ if __name__ == '__main__':
 
 3、了解了验证集和测试集的不同点和相同点以及它们的目的。
 
+English：
+The ResNet34 (1) model used should be distinguished from ResNet34 included in the train file.
+
+Setting up the test should refer to the val file and follow the step-by-step process for validation.
+
+Understanding the differences and similarities between the validation set and the test set, as well as their purposes.
+
 不同点：
+
 （1）、验证集用于调整模型的超参数，例如学习率、正则化系数等。通过在验证集上评估不同超参数的性能，可以选择最佳超参数来优化模型。
 
 （2）、测试集用于最终评估模型的性能。在模型开发过程中，应该避免使用测试集来调整模型或选择超参数，否则可能导致过拟合测试集，使得模型在真实场景中的性能表现不佳。
