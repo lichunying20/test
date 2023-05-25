@@ -396,14 +396,13 @@ if __name__ == '__main__':
 ## 总结
 1、所用的ResNet34（1）模型要与train文件中resnet包括的ResNet34区分开。
 
-2、搭建test要参考val，按照val的步骤一步一步的搭建。
-
-3、了解了验证集和测试集的不同点和相同点以及它们的目的。
-
-English：
 The ResNet34 (1) model used should be distinguished from ResNet34 included in the train file.
 
+2、搭建test要参考val，按照val的步骤一步一步的搭建。
+
 Setting up the test should refer to the val file and follow the step-by-step process for validation.
+
+3、了解了验证集和测试集的不同点和相同点以及它们的目的。
 
 Understanding the differences and similarities between the validation set and the test set, as well as their purposes.
 
