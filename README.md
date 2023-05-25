@@ -410,9 +410,21 @@ Understanding the differences and similarities between the validation set and th
 
 （1）、验证集用于调整模型的超参数，例如学习率、正则化系数等。通过在验证集上评估不同超参数的性能，可以选择最佳超参数来优化模型。
 
+The validation set is used to adjust the model's hyperparameters, such as learning rate and regularization coefficient. By evaluating the performance of different 
+hyperparameter combinations on the validation set, the optimal hyperparameters can be selected to optimize the model.
+
 （2）、测试集用于最终评估模型的性能。在模型开发过程中，应该避免使用测试集来调整模型或选择超参数，否则可能导致过拟合测试集，使得模型在真实场景中的性能表现不佳。
+
+The test set is used for the final evaluation of the model's performance. During model development, it should be avoided to use the test set to adjust the model 
+or select hyperparameters, as it may lead to overfitting to the test set and poor performance in real-world scenarios.
 
 （3）、验证集通常是从训练集中划分出来的一部分数据，用于训练集内部的模型选择。而测试集通常是从与训练集不同的数据集中抽样，用于评估模型在真实场景下的性能。
 
+The validation set is typically a subset of the training set, used for internal model selection within the training set. The test set, on the other hand, is 
+typically sampled from a different dataset than the training set, used to evaluate the model's performance in real-world scenarios.
+
 （4）、验证集的数据量通常要比测试集小，因为验证集需要多次使用来评估不同的超参数组合。而测试集的数据量应该足够大，以确保模型在真实场景下的性能得到充分评估。
 
+The validation set usually has a smaller sample size compared to the test set because it needs to be used multiple times to evaluate different hyperparameter 
+combinations. The test set, however, should have a sufficiently large sample size to ensure that the model's performance in real-world scenarios is adequately 
+evaluated.
