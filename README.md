@@ -393,3 +393,10 @@ if __name__ == '__main__':
 ## 运行test.py后得到的结果（ResNet34（1）模型）
 ![image](https://github.com/lichunying20/test/assets/128216499/8b5bc5ed-7354-405b-b33c-7cb8d7b0e80e)
 
+## 总结
+1、所用的ResNet34（1）模型要与train文件中resnet包括的ResNet34区分开。
+
+2、搭建test要参考val，按照val的步骤一步一步的搭建。
+
+3、
+
