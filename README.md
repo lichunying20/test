@@ -202,7 +202,7 @@ from models.resnet_main import *
 ![image](https://github.com/lichunying20/test/assets/128216499/ca507098-afaa-447c-a902-2eaf879e14ce)
 
 
-## test代码(模仿train_update.py)（ResNet34模型）
+## test_main代码(模仿train_update.py)（ResNet34模型）
 ```pythonimport argparse
 import time
 import json
@@ -325,8 +325,15 @@ if __name__ == '__main__':
     tester.test()
 
 ```
-## 运行test.py后得到的结果（ResNet34模型）
+## 运行test_main.py后得到的结果（ResNet34模型）
 ![image](https://github.com/lichunying20/test/assets/128216499/e51e6575-02ae-44e8-9232-b9f68fe3e7ef)
+
+## 另一种（test.py代码）
+```python
+```
+
+## 运行test.py得到的结果
+![image](https://github.com/lichunying20/test/assets/128216499/b4a4f139-38b2-43b2-958c-b15951fa9ec1)
 
 ## 总结（summarize）
 1、调用模型时，要注意模型的命名尽量不要带有数字。其次，```from models.resnet_main import * ```这句代码可以调用```模型resnet_main中的所有类```
