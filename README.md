@@ -413,7 +413,7 @@ if __name__ == '__main__':
             torch.save(worker.model, save_dir)
 ```
 ## 运行test.py后得到的结果（ResNet34模型）
-![image](https://github.com/lichunying20/test/assets/128216499/ebb0db30-fa09-4046-8759-dbcd57127680)
+![image](https://github.com/lichunying20/test/assets/128216499/e51e6575-02ae-44e8-9232-b9f68fe3e7ef)
 
 ## 总结（summarize）
 1、所用的ResNet34（1）模型要与train文件中resnet包括的ResNet34区分开。
