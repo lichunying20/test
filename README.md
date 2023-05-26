@@ -328,9 +328,9 @@ if __name__ == '__main__':
 ## 运行test_main.py后得到的结果（ResNet34模型）
 ![image](https://github.com/lichunying20/test/assets/128216499/e51e6575-02ae-44e8-9232-b9f68fe3e7ef)
 
-## 另一种（test.py代码）
+## 另一种（将test_main.py改为test.py代码）
 ```python
-import argparse
+   import argparse
 import time
 import json
 import os
