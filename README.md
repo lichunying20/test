@@ -121,7 +121,7 @@ if __name__ == '__main__':
     # 训练与验证
     for epoch in range(1, args.epochs + 1):...
 ```
-## 运行train.py后得到的结果
+## 运行train.py后得到的结果(运行train.py)
 ![image](https://github.com/lichunying20/test/assets/128216499/88f2b551-df4c-4050-ad70-54ec89e25420)
 
 ## 将train.py(ResNet18模型改为ResNet34模型)
@@ -198,11 +198,11 @@ from models.resnet_main import *
         assert net is not None
  ``` 
  
-## 运行train.py后得到的结果（ResNet34模型）
+## 运行train_update.py后得到的结果（ResNet34模型）
 ![image](https://github.com/lichunying20/test/assets/128216499/ca507098-afaa-447c-a902-2eaf879e14ce)
 
 
-## test代码(模仿train.py)（ResNet34模型）
+## test代码(模仿train_update.py)（ResNet34模型）
 ```pythonimport argparse
 import time
 import json
