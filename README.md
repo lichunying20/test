@@ -329,7 +329,7 @@ if __name__ == '__main__':
 ![image](https://github.com/lichunying20/test/assets/128216499/e51e6575-02ae-44e8-9232-b9f68fe3e7ef)
 
 ## 总结（summarize）
-1、调用模型时，要注意模型的命名尽量不要带有数字。其次，```python from models.resnet_main import * ```这句代码时调用```python模型resnet_main中的所有类```
+1、调用模型时，要注意模型的命名尽量不要带有数字。其次，```from models.resnet_main import * ```这句代码时调用```模型resnet_main中的所有类```
 
 The ResNet34 (1) model used should be distinguished from ResNet34 included in the train file.
 
