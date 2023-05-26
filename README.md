@@ -199,7 +199,7 @@ from models.resnet_main import *
  ``` 
  
 ## 运行train.py后得到的结果（ResNet34模型）
-![image](https://github.com/lichunying20/test/assets/128216499/ba8938fb-ffe7-44de-900c-1926a7ef50e5)
+![image](https://github.com/lichunying20/test/assets/128216499/ca507098-afaa-447c-a902-2eaf879e14ce)
 
 
 ## test代码(模仿train.py)（ResNet34模型）
