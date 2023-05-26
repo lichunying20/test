@@ -124,7 +124,7 @@ if __name__ == '__main__':
 ## 运行train.py后得到的结果(运行train.py)
 ![image](https://github.com/lichunying20/test/assets/128216499/88f2b551-df4c-4050-ad70-54ec89e25420)
 
-## 将train.py(ResNet18模型改为ResNet34模型)
+## 将train.py(ResNet18模型改为ResNet34模型)更改后得到train_update.py
 ```python
 from tqdm import tqdm
 from models import *
